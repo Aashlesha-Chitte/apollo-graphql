@@ -1,0 +1,22 @@
+node_modules
+data
+# ignore brigade-test/brigade.js as it is temporarily copied during test run
+brigade-test/brigade.js
+brigade-test/node_modules
+build
+dist/
+.env
+coverage/
+test-report.xml
+.DS_Store
+__snapshots__/
+
+#codecept-tests
+output/
+allure-report/
+reports/
+.vscode
+codecept-tests/.idea/
+/.idea
+/.vs
+/codecept-tests/node_modules

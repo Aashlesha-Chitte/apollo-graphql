@@ -1,0 +1,12 @@
+type Query {
+  # getProducts: getProductsResponse
+  getUsers: getUsersResponse
+}
+
+type Mutation {
+    createUser(input: UserInput!): createUserResponse
+
+  # createProduct(input: ProductInput!): createProductResponse
+  # updateProduct(id: ID!, input: ProductInput!): updateProductResponse
+  # deleteProduct(id: ID!): deleteProductResponse
+}

@@ -1,0 +1,21 @@
+type User {
+    name: String!
+    role: String!
+}
+
+type getUsersResponse {
+    message: String!
+    status: String!
+    data: [User]
+}
+
+type createUserResponse{
+    message: String!
+    status: String!
+    data: User
+}
+
+input UserInput {
+    name: String!
+    role: String!
+}

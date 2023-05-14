@@ -1,0 +1,35 @@
+type getProductsResponse {
+  message: String!
+  status: Int!
+  data: [product]
+}
+
+type product {
+  name: String!
+  state: String
+  price: Int!
+  quantity: Int!
+}
+
+type updateProductResponse{
+  message: String!
+  status: String!
+  data: product!
+}
+
+type createProductResponse{
+  message: String!
+  status: Int!
+  data: product!
+}
+type deleteProductResponse{
+  message: String!
+  status: String!
+}
+
+input ProductInput {
+  name: String!
+  state: String
+  price: Int!
+  quantity: Int!
+}

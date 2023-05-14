@@ -1,0 +1,10 @@
+{
+    "verbose": true,
+    "watch": [
+        "src/**/*.js",
+        "src/**/*.graphql"
+    ],
+    "runOnChangeOnly": false,
+    "ext": "js json graphql",
+    "exec": "npm run build && node index.js"
+}
